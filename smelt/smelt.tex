@@ -1,5 +1,5 @@
 \documentclass{simcenterdocumentation}
-\usepackage[backend=biber,sorting=none]{biblatex}
+\usepackage[backend=biber]{biblatex}
 %\usepackage{subfig}
 \usepackage{subcaption}
 \usepackage{multirow}
@@ -28,14 +28,14 @@
 
 % Declarations for Front Matter
 % Software title followed by optional second line
-\title{EE-UQ\\ \Large The Earthquake Engineering with Uncertainty Quantification (EE-UQ) Application}
+\title{smelt\\\vspace{0.2cm} \Large Stochastic, Modular, and Extensible Library \\for Time Histories}
 % Use superscripts to indicate author affiliations
-\author{Frank McKenna, Wael Elhaddad, Chaofeng Wang, and Michael Gardner}
+\author{Michael Gardner}
 %\author{Moe Howard$^{1,2}$ Larry Fine$^1$ Curly Howard$^2$}
 \institutions{NHERI SimCenter, UC Berkeley}
-\softwarename{EE-UQ}
-\softwareversion{1.1}
-\softwarepage{https://simcenter.designsafe-ci.org/research-tools/ee-uq-application/}
+\softwarename{smelt}
+\softwareversion{1.0}
+\softwarepage{https://github.com/NHERI-SimCenter/smelt}
 
 %%% DON'T MESS WITH THESE SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \hypersetup{pageanchor=false}
@@ -61,44 +61,43 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Create separate tex files for each chapter and provide them as inputs
 
-\chapter{About}
-\label{chap:about}
-\input{about/about.tex}
+%% \chapter{About}
+%% \label{chap:about}
+%% \input{about/about.tex}
 
+%% \chapter{Installation Instructions}
+%% \label{chap:installation}
+%% \input{installation/installation.tex}
 
+%% \chapter{Usage}
+%% \label{chap:usage}
+%% \input{usage/usage.tex}
 
-\chapter{Installation Instructions}
-\label{chap:installation}
-\input{installation/installation.tex}
+%% \chapter{Theory and Implementation}
+%% \label{chap:theory}
+%% \input{theory_and_implementation/theory_and_implementation.tex}
 
+%% \chapter{Verification and Validation}
+%% \label{chap:vnv}
+%% \input{ver_and_val/ver_and_val.tex}
 
-\chapter{Usage}
-\label{chap:usage}
-\input{usage/usage.tex}
+%% \chapter{Source Code}
+%% \label{chap:SourceCode}
+%% \input{source_code/source_code.tex}
 
-\chapter{Theory and Implementation}
-\label{chap:theory}
-\input{theory_and_implementation/theory_and_implementation.tex}
+%% \chapter{User Training}
+%% \label{chap:training}
+%% \input{training/training.tex}
 
-\chapter{Verification and Validation}
-\label{chap:vnv}
-\input{ver_and_val/ver_and_val.tex}
+%% \chapter{Requirements}
+%% \label{chap:requirements}
+%% \input{requirements/requirements.tex}
 
-\chapter{Source Code}
-\label{chap:SourceCode}
-\input{source_code/source_code.tex}
+%% \chapter{Troubleshooting}
+%% \label{chap:troubleshooting}
+%% \input{troubleshooting/troubleshooting.tex}
 
-\chapter{User Training}
-\label{chap:training}
-\input{training/training.tex}
-
-\chapter{Requirements}
-\label{chap:requirements}
-\input{requirements/requirements.tex}
-
-\chapter{Troubleshooting}
-\label{chap:troubleshooting}
-\input{troubleshooting/troubleshooting.tex}
+\nocite{*}
 
 % \appendix
 % \chapter{More Monticello Candidates}
